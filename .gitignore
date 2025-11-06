@@ -1,15 +1,11 @@
-__pycache__/
-*.py[cod]
+# Ignore virtual environment
 venv/
-ENV/
-env/
-*.log
-logs/
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
 .DS_Store
 Thumbs.db
-*.egg-info/
-.eggs/
+
